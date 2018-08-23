@@ -1,2 +1,5 @@
 ### Environment Variables ###
 .flaskenv
+
+### PyCharm ###
+.idea
