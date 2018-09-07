@@ -16,7 +16,7 @@ migrate = Migrate(app, db)
 login = LoginManager(app)
 login.login_view = 'login'
 mail = Mail(app)
-bootstrap = Bootstrap
+bootstrap = Bootstrap(app)
 
 from app import routes, models, errors
 
