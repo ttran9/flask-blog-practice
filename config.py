@@ -14,4 +14,4 @@ class Config(object):
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['wptran58@gmail.com']
     POSTS_PER_PAGE = 10
-    LANGUAGES = ['en', 'es']
+    LANGUAGES = ['en', 'es', 'vi']
