@@ -8,6 +8,7 @@ from app.main.forms import EditProfileForm, PostForm
 from app.models import User, Post
 from app.translate import translate
 from app.main import bp
+from app.main.forms import SearchForm
 
 
 @bp.route('/', methods=['GET', 'POST'])
@@ -40,6 +41,7 @@ def before_request():
     if current_user.is_authenticated:
         current_user.last_seen = datetime.utcnow()
         db.session.commit()
+        g.search_form = SearchForm()
     g.locale = str(get_locale())
 
 
