@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1518aafe-deb3-4d98-a2ab-2d7b63ed3a14" name="Default" comment="Ignoring files.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app.db" afterPath="$PROJECT_DIR$/app.db" />
       <change beforePath="$PROJECT_DIR$/app/models.py" afterPath="$PROJECT_DIR$/app/models.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +37,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
-              <caret line="66" column="29" lean-forward="false" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+            <state relative-caret-position="414">
+              <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -315,13 +314,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534967646025</updated>
-    </task>
-    <task id="LOCAL-00119" summary="View to invoke the translate function and invokes a function to turn it into a JSON-like dictionary.">
-      <created>1536707358108</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1536707358108</updated>
     </task>
     <task id="LOCAL-00120" summary="Updating translations for Spanish.">
       <created>1536707670794</created>
@@ -659,7 +651,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537389844208</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="Files.">
+      <created>1537390498353</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1537390498353</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TodoView">
@@ -726,7 +725,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Function to process the search." />
     <MESSAGE value="Search template to display results from search." />
     <MESSAGE value="View function for user pop-up." />
     <MESSAGE value="View for the user pop-up page." />
@@ -751,7 +749,8 @@
     <MESSAGE value="Adding extra notes to README." />
     <MESSAGE value="Updating .gitignore" />
     <MESSAGE value="Ignoring files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ignoring files." />
+    <MESSAGE value="Files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Files." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1154,8 +1153,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="66" column="29" lean-forward="false" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+        <state relative-caret-position="414">
+          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
           <folding />
         </state>
       </provider>
