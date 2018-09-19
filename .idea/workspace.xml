@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1518aafe-deb3-4d98-a2ab-2d7b63ed3a14" name="Default" comment="Adding extra notes to README.">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/microblog.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+    <list default="true" id="1518aafe-deb3-4d98-a2ab-2d7b63ed3a14" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app.db" afterPath="" />
       <change beforePath="$PROJECT_DIR$/venv/bin/activate" afterPath="" />
       <change beforePath="$PROJECT_DIR$/venv/bin/activate.csh" afterPath="" />
@@ -3224,13 +3219,6 @@
       <option name="presentableId" value="Default" />
       <updated>1534967646025</updated>
     </task>
-    <task id="LOCAL-00116" summary="Adding in loading.gif as a placeholder while making translation (AJAX) call.">
-      <created>1536705080965</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1536705080965</updated>
-    </task>
     <task id="LOCAL-00117" summary="Adding in JavaScript function to define the AJAX call to the view to invoke the translation.">
       <created>1536707288038</created>
       <option name="number" value="00117" />
@@ -3567,7 +3555,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537389444859</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="Updating .gitignore">
+      <created>1537389767937</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1537389767937</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3584,7 +3579,7 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297456" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -3634,8 +3629,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Store the SearchForm inside of a variable to persist across the life of a request." />
-    <MESSAGE value="Displaying the search form on each page (except for error page(s))." />
     <MESSAGE value="Function to process the search." />
     <MESSAGE value="Search template to display results from search." />
     <MESSAGE value="View function for user pop-up." />
@@ -3659,7 +3652,9 @@
     <MESSAGE value="Adding in latest migration." />
     <MESSAGE value="Updating gitignore." />
     <MESSAGE value="Adding extra notes to README." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding extra notes to README." />
+    <MESSAGE value="Updating .gitignore" />
+    <MESSAGE value="Ignoring files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ignoring files." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
