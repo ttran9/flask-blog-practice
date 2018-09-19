@@ -16,3 +16,9 @@ logs
 *.o
 *.so
 *.pyc
+
+# sqlite db #
+app.db
+
+# venv #
+venv
