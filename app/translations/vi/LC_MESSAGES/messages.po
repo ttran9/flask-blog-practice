@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-09-19 14:06-0700\n"
+"POT-Creation-Date: 2018-09-20 19:42-0700\n"
 "PO-Revision-Date: 2018-09-10 16:29-0700\n"
 "Last-Translator: \n"
 "Language: vi\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: app/__init__.py:21
+#: app/__init__.py:23
 msgid "Please log in to access this page."
 msgstr "Vui lòng đăng nhập để truy cập trang."
 
@@ -158,13 +158,21 @@ msgstr "Bạn không theo dõi %(username)s."
 msgid "Explore"
 msgstr "Khám phá"
 
-#: app/main/routes.py:166
+#: app/main/routes.py:167
 msgid "Your message has been sent."
 msgstr "Tin nhắn của bạn đã được gửi."
 
-#: app/main/routes.py:168
+#: app/main/routes.py:169
 msgid "Send Message"
 msgstr "Gửi tin nhắn"
+
+#: app/main/routes.py:208
+msgid "An export task is currently in progress"
+msgstr "Tác vụ xuất đang được xử lý"
+
+#: app/main/routes.py:210
+msgid "Exporting posts..."
+msgstr "Đang xuất bài đăng..."
 
 #: app/templates/_post.html:17
 #, python-format
@@ -187,15 +195,15 @@ msgstr "Đăng nhập"
 msgid "Messages"
 msgstr "Tin nhắn"
 
-#: app/templates/base.html:33
+#: app/templates/base.html:40
 msgid "Profile"
 msgstr "Hồ sơ"
 
-#: app/templates/base.html:34
+#: app/templates/base.html:41
 msgid "Logout"
 msgstr "Đăng xuất"
 
-#: app/templates/base.html:80
+#: app/templates/base.html:99
 msgid "Error: Could not contact server."
 msgstr "Lỗi: Không thể kết nối với máy chủ."
 
@@ -204,11 +212,11 @@ msgstr "Lỗi: Không thể kết nối với máy chủ."
 msgid "Hi, %(username)s!"
 msgstr "Chào, %(username)s"
 
-#: app/templates/index.html:28 app/templates/user.html:46
+#: app/templates/index.html:28 app/templates/user.html:57
 msgid "Newer posts"
 msgstr "Bài đăng mới hơn"
 
-#: app/templates/index.html:33 app/templates/user.html:51
+#: app/templates/index.html:33 app/templates/user.html:62
 msgid "Older posts"
 msgstr "Bài đăng cũ hơn"
 
@@ -255,19 +263,23 @@ msgstr "người theo dõi %(count)d"
 msgid "%(count)d following"
 msgstr "tiếp theo %(count)d"
 
-#: app/templates/user.html:21
+#: app/templates/user.html:23
 msgid "Edit your profile"
 msgstr "Chỉnh sửa hồ sơ của bạn"
 
-#: app/templates/user.html:23 app/templates/user_popup.html:21
+#: app/templates/user.html:29
+msgid "Export your posts"
+msgstr "Xuất bài đăng của bạn"
+
+#: app/templates/user.html:34 app/templates/user_popup.html:21
 msgid "Follow"
 msgstr "Theo"
 
-#: app/templates/user.html:25 app/templates/user_popup.html:25
+#: app/templates/user.html:36 app/templates/user_popup.html:25
 msgid "Unfollow"
 msgstr "Hủy theo dõi"
 
-#: app/templates/user.html:31
+#: app/templates/user.html:42
 msgid "Send private message"
 msgstr "Gửi tin nhắn riêng"
 
