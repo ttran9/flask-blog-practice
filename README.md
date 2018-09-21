@@ -1,7 +1,8 @@
 # Practice Blog #
 
 - For the initial chapter upload I am having trouble with the export_posts function but I will push changes
-and looking for why that is occuring.
+and looking for why that is occurring.
+
     - My issue is that sending the e-mail with all a user's posts is not working the progress is stuck
     at 0%.
         - It should be noted that the password recovery e-mail is still working as expected.
